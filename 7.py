@@ -16,8 +16,6 @@ class BankAccount:
     def balance(self):
         print(f"The balance is {self.balances}")
 
-
-# Initialize the account
 account = BankAccount(int(input("Enter the opening balance: ")))
 
 loop_runner = True
